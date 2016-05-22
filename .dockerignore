@@ -1,0 +1,10 @@
+/public/uploads/*
+/public/system/*
+/db/*.sqlite3
+log
+tmp
+.env
+*.env
+.git
+.dockerignore
+Dockerfile

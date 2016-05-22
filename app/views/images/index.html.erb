@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>My Images</h1>
+
+<%= link_to 'New Image', new_image_path %>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @images.each do |image| %>
+      <tr>
+        <% if image.carrier_wave_image.file %>
+          <td><%= image_tag image.carrier_wave_image.thumb %></td>
+        <% else %>
+          <td><%= image_tag image.paperclip_image.url(:thumb) %></td>
+        <% end %>
+        <td><%= link_to 'X', image, method: :delete   %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
