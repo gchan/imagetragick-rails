@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  imagetragick:
+    image: gordonchan/imagetragick-rails
+    ports:
+      - "3131:3000"
+    environment:
+      - SECRET_KEY_BASE=d41c2ab288fdefcd779ca19a1fa2dec39f21f945ad8c44770c4e4731c090e3e34643b9eb012c80739fc362cb44a44296b1e1d145eb76880f0e2cfc4ee4e301a1
