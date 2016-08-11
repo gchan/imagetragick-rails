@@ -1,6 +1,6 @@
 ### ImageTragick Rails (gordonchan/imagetragick-rails)
 
-[![](https://badge.imagelayers.io/gordonchan/imagetragick-rails:latest.svg)](https://imagelayers.io/?images=gordonchan/imagetragick-rails:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/gordonchan/imagetragick-rails.svg)](http://microbadger.com/images/gordonchan/imagetragick-rails "Get your own image badge on microbadger.com")
 
 A sample Rails application to demonstrate the [ImageTragick](https://imagetragick.com/) vulnerabilities as part of talk I gave at [WellRailed](https://www.meetup.com/wellrailed/events/231113047) on 26 May 2016.
 
